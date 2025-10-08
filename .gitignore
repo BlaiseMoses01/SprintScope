@@ -1,0 +1,66 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# ---------------------
+# Environments & Secrets
+# ---------------------
+.env
+*.env
+venv/
+.env/
+.venv/
+
+# ---------------------
+# Data (Parquet, JSON, etc.)
+# ---------------------
+data/bronze/
+data/silver/
+data/gold/
+*.parquet
+*.csv
+*.json
+
+# ---------------------
+# Jupyter & Logs
+# ---------------------
+.ipynb_checkpoints/
+*.log
+
+# ---------------------
+# IDEs
+# ---------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------
+# OS
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Streamlit Cache
+# ---------------------
+.streamlit/
+**/.streamlit/
+
+# ---------------------
+# Git and Ignore Files
+# ---------------------
+*.bak
+*.tmp
+
+
